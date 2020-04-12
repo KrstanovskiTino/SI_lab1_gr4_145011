@@ -2,12 +2,29 @@ class Point {
 	String id
 	double x,y;
 
-	//TODO add new variable
+	String boja
 
-	//TODO constructor
+public Point() {
+	id;
+	boja;
+	double x,y 
+}
 
-	//TODO setters and getters
-
+	 public String getid() {
+	 return id;
+	 }
+	 
+	 public void setid(String newid) {
+    this.id = newid;
+  }
+  
+   public String getboja() {
+	 return boja;
+	 }
+	 
+	 public void setboja(String newboja) {
+    this.boja = newboja;
+  }
 	public void move (char xDirection, char yDirection) {
 		//TODO
 	}
@@ -16,7 +33,8 @@ class Point {
 		//TODO
 	}
 
-	String boja
+	
+	
 	
 
 }
