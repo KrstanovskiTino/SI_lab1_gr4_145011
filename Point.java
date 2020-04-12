@@ -16,6 +16,7 @@ class Point {
 		//TODO
 	}
 
-
+	String boja
+	
 
 }
